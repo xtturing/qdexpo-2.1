@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A1F1D816EF17D7001EAE76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A1F1D716EF17D7001EAE76 /* UIKit.framework */; };
+		39A1F1DA16EF17D7001EAE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A1F1D916EF17D7001EAE76 /* Foundation.framework */; };
+		39A1F1DC16EF17D7001EAE76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A1F1DB16EF17D7001EAE76 /* CoreGraphics.framework */; };
+		39A1F1E216EF17D7001EAE76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39A1F1E016EF17D7001EAE76 /* InfoPlist.strings */; };
+		39A1F1E416EF17D7001EAE76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A1F1E316EF17D7001EAE76 /* main.m */; };
+		39A1F1E816EF17D7001EAE76 /* qdexpoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A1F1E716EF17D7001EAE76 /* qdexpoAppDelegate.m */; };
+		39A1F1EA16EF17D7001EAE76 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39A1F1E916EF17D7001EAE76 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39A1F1D316EF17D7001EAE76 /* qdexpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qdexpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A1F1D716EF17D7001EAE76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39A1F1D916EF17D7001EAE76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39A1F1DB16EF17D7001EAE76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39A1F1DF16EF17D7001EAE76 /* qdexpo-Info.plist */ = {isa = PBXFileReference; path = "qdexpo-Info.plist"; sourceTree = "<group>"; };
+		39A1F1E116EF17D7001EAE76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39A1F1E316EF17D7001EAE76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39A1F1E516EF17D7001EAE76 /* qdexpo-Prefix.pch */ = {isa = PBXFileReference; path = "qdexpo-Prefix.pch"; sourceTree = "<group>"; };
+		39A1F1E616EF17D7001EAE76 /* qdexpoAppDelegate.h */ = {isa = PBXFileReference; path = qdexpoAppDelegate.h; sourceTree = "<group>"; };
+		39A1F1E716EF17D7001EAE76 /* qdexpoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qdexpoAppDelegate.m; sourceTree = "<group>"; };
+		39A1F1E916EF17D7001EAE76 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A1F1D016EF17D7001EAE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A1F1D816EF17D7001EAE76 /* UIKit.framework in Frameworks */,
+				39A1F1DA16EF17D7001EAE76 /* Foundation.framework in Frameworks */,
+				39A1F1DC16EF17D7001EAE76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A1F1C816EF17D7001EAE76 = {
+			isa = PBXGroup;
+			children = (
+				39A1F1DD16EF17D7001EAE76 /* qdexpo */,
+				39A1F1D616EF17D7001EAE76 /* Frameworks */,
+				39A1F1D416EF17D7001EAE76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39A1F1D416EF17D7001EAE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A1F1D316EF17D7001EAE76 /* qdexpo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A1F1D616EF17D7001EAE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39A1F1D716EF17D7001EAE76 /* UIKit.framework */,
+				39A1F1D916EF17D7001EAE76 /* Foundation.framework */,
+				39A1F1DB16EF17D7001EAE76 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39A1F1DD16EF17D7001EAE76 /* qdexpo */ = {
+			isa = PBXGroup;
+			children = (
+				39A1F1E616EF17D7001EAE76 /* qdexpoAppDelegate.h */,
+				39A1F1E716EF17D7001EAE76 /* qdexpoAppDelegate.m */,
+				39A1F1E916EF17D7001EAE76 /* MainWindow.xib */,
+				39A1F1DE16EF17D7001EAE76 /* Supporting Files */,
+			);
+			path = qdexpo;
+			sourceTree = "<group>";
+		};
+		39A1F1DE16EF17D7001EAE76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39A1F1DF16EF17D7001EAE76 /* qdexpo-Info.plist */,
+				39A1F1E016EF17D7001EAE76 /* InfoPlist.strings */,
+				39A1F1E316EF17D7001EAE76 /* main.m */,
+				39A1F1E516EF17D7001EAE76 /* qdexpo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A1F1D216EF17D7001EAE76 /* qdexpo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A1F1ED16EF17D7001EAE76 /* Build configuration list for PBXNativeTarget "qdexpo" */;
+			buildPhases = (
+				39A1F1CF16EF17D7001EAE76 /* Sources */,
+				39A1F1D016EF17D7001EAE76 /* Frameworks */,
+				39A1F1D116EF17D7001EAE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qdexpo;
+			productName = qdexpo;
+			productReference = 39A1F1D316EF17D7001EAE76 /* qdexpo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39A1F1CA16EF17D7001EAE76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 39A1F1CD16EF17D7001EAE76 /* Build configuration list for PBXProject "qdexpo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39A1F1C816EF17D7001EAE76;
+			productRefGroup = 39A1F1D416EF17D7001EAE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A1F1D216EF17D7001EAE76 /* qdexpo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39A1F1D116EF17D7001EAE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A1F1E216EF17D7001EAE76 /* InfoPlist.strings in Resources */,
+				39A1F1EA16EF17D7001EAE76 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39A1F1CF16EF17D7001EAE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A1F1E416EF17D7001EAE76 /* main.m in Sources */,
+				39A1F1E816EF17D7001EAE76 /* qdexpoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39A1F1E016EF17D7001EAE76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A1F1E116EF17D7001EAE76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39A1F1EB16EF17D7001EAE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39A1F1EC16EF17D7001EAE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A1F1EE16EF17D7001EAE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qdexpo/qdexpo-Prefix.pch";
+				INFOPLIST_FILE = "qdexpo/qdexpo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39A1F1EF16EF17D7001EAE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "qdexpo/qdexpo-Prefix.pch";
+				INFOPLIST_FILE = "qdexpo/qdexpo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A1F1CD16EF17D7001EAE76 /* Build configuration list for PBXProject "qdexpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A1F1EB16EF17D7001EAE76 /* Debug */,
+				39A1F1EC16EF17D7001EAE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A1F1ED16EF17D7001EAE76 /* Build configuration list for PBXNativeTarget "qdexpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A1F1EE16EF17D7001EAE76 /* Debug */,
+				39A1F1EF16EF17D7001EAE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39A1F1CA16EF17D7001EAE76 /* Project object */;
+}
